@@ -7,3 +7,5 @@ app.get("/", (request, response) => {
     `${dateTime.getDate()}-${dateTime.getMonth() + 1}-${dateTime.getFullYear()}`
   );
 });
+
+module.exports = app;
